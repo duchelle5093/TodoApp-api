@@ -14,9 +14,6 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI customOpenAPI() {
 
-        Contact contact = new Contact();
-        contact.setEmail("boutchouangelija@gmail.com");
-        contact.setName("Boutchouang Nathan Elija");
 
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
         // Create and return a customized OpenAPI instance.
